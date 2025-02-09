@@ -1,0 +1,7 @@
+displayName: Traefik Signature Plugin
+type: middleware
+import: github.com/othmane222/traefik-signature-generator
+summary: A middleware that adds a digital signature to HTTP responses.
+testData:
+  Headers:
+    X-Signature: ExampleSignature
